@@ -62,12 +62,12 @@ nav ul li a {
 .chair_and_plant_section_text_div {
   position: absolute;
   top: 50%;
-  right: 10%;
+  left: 10%;
   transform: translateY(-50%);
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   border-radius: 5px;
-  text-align: right;
+  text-align: left;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .chair_and_plant_section_text_div .tagline {
@@ -179,21 +179,17 @@ nav ul li a {
     min-width: 200px;
     text-align: left;
 }
-
 .footer-section h3 {
     font-size: 1.2rem;
     margin-bottom: 1rem;
     color: #e67e22;
 }
-
 .footer-section ul {
     list-style: none;
 }
-
 .footer-section ul li {
     margin-bottom: 0.75rem;
 }
-
 .footer-section ul li a {
     color: #bdc3c7;
     text-decoration: none;
