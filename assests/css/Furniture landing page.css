@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color:white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+.user_managerment li a img{
+    width: 50%;
+}
+.user_managerment {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.user_managerment li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+.user_managerment li a:hover {
+    color: #8b5d33;
+}
+.chair_and_plant_section {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+    background-color: rgb(212, 212, 212);
+}
+.chair_and_plant_section .chair_and_plant_section_image img {
+    max-width: 400px;
+    border-radius: 10px;
+}
+.chair_and_plant_section .chair_and_plant_section_text_div {
+    padding: 20px;
+    text-align: left;
+    max-width: 600px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    height: 100%;
+    background-color: wheat;
+    justify-content: left;
+}
+.chair_and_plant_section .tagline {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 10px;
+}
+.chair_and_plant_section h2 {
+    font-size: 24px;
+    color: rgb(163, 129, 41);
+}
+.chair_and_plant_section p {
+    font-size: 16px;
+    font-size: 16px;
+    color: #666;
+}
+.chair_and_plant_section .chair_and_plant_section_text_div button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(163, 129, 41);
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.floor_rooms{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.browse_the_range .floor_rooms{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.browse_the_range .floor_rooms div{
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
