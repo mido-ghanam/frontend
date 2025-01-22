@@ -23,10 +23,10 @@
         </nav>
         <div>
             <ul class="user_managerment">
-                <li><a href="#"><img src="assests/imgs/user_ac.png" alt="User account Managerment img"></i></a></li>
-                <li><a href="#"><img src="assests/imgs/search_mag.PNG" alt="Search magnifire img"></i></a></li>
-                <li><a href="#"><img src="assests/imgs/heart.png" alt="Heart img"></i></a></li>
-                <li><a href="#"><img src="assests/imgs/cart.png" alt="Cart img"></i></a></li>
+                <li><a href="#"><img src="assests/imgs/user_ac.png" alt="User account Managerment img"></a></li>
+                <li><a href="#"><img src="assests/imgs/search_mag.PNG" alt="Search magnifire img"></a></li>
+                <li><a href="#"><img src="assests/imgs/heart.png" alt="Heart img"></a></li>
+                <li><a href="#"><img src="assests/imgs/cart.png" alt="Cart img"></a></li>
             </ul>
         </div>
     </header>
@@ -63,15 +63,11 @@
         </div>
     </section>
     <footer class="footer">
-        <!-- العنوان الرئيسي -->
         <div class="brand">
             <div class="brand-name">Funiro</div>
             <div class="subtitle">Modern Furniture for Your Elegance</div>
         </div>
-
-        <!-- الأقسام -->
         <div class="footer-sections">
-            <!-- قسم Links -->
             <div class="footer-section">
                 <h3>Quick Links</h3>
                 <ul>
@@ -81,8 +77,6 @@
                     <li><a href="#">Contact Us</a></li>
                 </ul>
             </div>
-
-            <!-- قسم Help -->
             <div class="footer-section">
                 <h3>Help</h3>
                 <ul>
@@ -92,8 +86,6 @@
                     <li><a href="#">Support</a></li>
                 </ul>
             </div>
-
-            <!-- قسم Newsletter -->
             <div class="footer-section">
                 <h3>Newsletter</h3>
                 <div class="newsletter-form">
@@ -102,27 +94,28 @@
                 </div>
             </div>
         </div>
-
-        <!-- العنوان البريدي -->
         <div class="address">
             400 University Drive Suite 200 Coral, FL 33134 USA
         </div>
-
-        <!-- حقوق النشر -->
         <div class="copyright">
             © 2023 Funiro. All rights reserved.
         </div>
     </footer>
-
-</body>
-<script>
-    function isMobileDevice() {return /Mobi|Android/i.test(navigator.userAgent);}
-    function checkDevice() {if (isMobileDevice()) {alert('For a better experience, please enable desktop mode.')}}
-    checkDevice();
-    window.addEventListener('resize', function() {
-        if (!isMobileDevice()) {
-            location.reload();
+    <script>
+        function isMobileDevice() {
+            return /Mobi|Android/i.test(navigator.userAgent);
         }
-    });
-</script>
+        function checkDevice() {
+            if (isMobileDevice()) {
+                alert('For a better experience, please enable desktop mode.');
+            }
+        }
+        checkDevice();
+        window.addEventListener('resize', function() {
+            if (!isMobileDevice()) {
+                location.reload();
+            }
+        });
+    </script>
+</body>
 </html>
